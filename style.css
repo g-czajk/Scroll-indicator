@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5vh;
+    z-index: 5;
+    transition: 0.2s linear;
+    overflow: hidden;
+}
+
+.first {
+    height: 25vh;
+    background-color: #777;
+}
+
+.main {
+    height: 1000vh;
+}
+
+.last {
+    height: 50vh;
+    background-color: #777;
+}
+
+p {
+    padding-top: 80px;
+    color: #000;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
