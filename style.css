@@ -17,23 +17,28 @@
 
 .first {
     height: 25vh;
-    background-color: #777;
+    background-color: #1e3d58;
 }
 
 .main {
     height: 1000vh;
+    background-color: #e8eef1;
 }
 
 .last {
     height: 50vh;
-    background-color: #777;
+    background-color: #1e3d58;
 }
 
 p {
     padding-top: 80px;
-    color: #000;
+    color: #fff;
     font-family: arial, sans-serif;
     font-size: 40px;
     text-align: center;
     letter-spacing: 2px;
+}
+
+.main p {
+    color: #1e3d58;
 }
